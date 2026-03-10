@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "AE197D66-5E41-44DC-AA98-1E0F0D6F00E1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:thmanyah.xcodeproj",
+          "identifier" : "99150F3F2F5D8DDF001C2959",
+          "name" : "thmanyah"
+        },
+        {
+          "containerPath" : "container:thmanyah.xcodeproj",
+          "identifier" : "99150F4C2F5D8DE2001C2959",
+          "name" : "thmanyahTests"
+        },
+        {
+          "containerPath" : "container:thmanyah.xcodeproj",
+          "identifier" : "99150F562F5D8DE2001C2959",
+          "name" : "thmanyahUITests"
+        }
+      ]
+    },
+    "performanceAntipatternCheckerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:thmanyah.xcodeproj",
+        "identifier" : "99150F4C2F5D8DE2001C2959",
+        "name" : "thmanyahTests"
+      }
+    }
+  ],
+  "version" : 1
+}
